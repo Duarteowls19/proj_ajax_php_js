@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.acc{
+    margin-bottom: 50px;
+}
+.acc input{
+    width: 200px;
+    padding: 10px;
+    margin-right: 12px;
+}
+.acc button{
+    transition: 400ms;
+    width: 200px;
+    padding: 10px;
+    height: 40px;
+    background-color: rgb(226, 224, 220);
+    border: none;
+    cursor: pointer;
+}
+.acc button:hover{
+    color: white;
+    background-color: rgb(104, 97, 97);
+}
+.table-bordered{
+    border: 2px black solid;
+    padding: 20px;
+}
+td{
+    border: 1px black solid;
+    padding: 5px;
+}
+th{
+    border: 1px black solid;
+    padding: 5px;
+}
