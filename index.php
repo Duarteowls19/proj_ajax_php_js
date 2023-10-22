@@ -74,5 +74,5 @@ form.addEventListener('submit', async event => {
 </body>
 </html>
 <?php 
-echo password_hash('senha',PASSWORD_DEFAULT);
+
 ?>
